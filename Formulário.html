@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clona cartão</title>
+</head>
+<body>
+    <div>
+        <h1>Clona cartão</h1>
+        <p>Complete suas informações</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div>
+                <label>Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+
+            <div>
+                <label>CPF</label>
+                <input type="number" name="CPF" id="CPF">
+            </div>
+
+            <div>
+                <label>Número do cartão</label>
+                <input type="number" name="Número do cartão de crédito" id="Número do cartão de crédito">
+            </div>
+
+            <div>
+                <label>Código de segurança de três digitos</label>
+                <input type="number" name="Código de segurança de três digitos" id="Código de segurança de três digitos">
+            </div>
+
+            <div>
+                <label>Senha do cartão</label>
+                <input type="number" name="Senha do cartão" id="Senha do cartão">
+            </div>
+        </fieldset>
+
+        <div>
+            <label>Email(Opcional)</label>
+            <input type="email" name="email" id= "email">
+        </div>
+        
+        <div>
+            <label>Qual cartão você usa?</label>
+            <label>
+                <input type="radio" name="devweb" value="frontend" checked>Itaú
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="backend">Bradesco
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack">Mastercard
+            </label>
+        </div>
+
+        <div>
+            <label>Renda</label>
+            <select id="renda">
+                <option selected disabled value="">Selecione</option>
+                <option>Baixa</option>
+                <option>Média</option>
+                <option>Alta</option>
+            </select>
+        </div>
+
+        <fieldset>
+            <div>
+                <label>Com que frequência você confere compras suspeitas na sua fatura?:</label>
+                <input type="checkbox" id="saque1" name="saque1" value="Nunca">
+                <label for="saque1">Nunca</label>
+                <input type="checkbox" id="saque2" name="saque2" value="Ás vezes">
+                <label for="saque2">Ás vezes</label>
+                <input type="checkbox" id="saque3" name="saque3" value="Regularmente">
+                <label for ="saque3">Regularmente</label>
+                <input type="checkbox" id="saque4" name="saque4" value="Sempre">
+                <label for="saque4">Sempre</label>
+            </div>
+        </fieldset>
+
+        <div>
+            <br>
+            <label>Conte algumas informações sobre você</label>
+            <textarea row="6" style="width: 26cm" id="informações" name="informações"></textarea>
+        </div>
+
+        <button type="submit">Concluído</button>
+    </form>
+    
+</body>
+</html>
