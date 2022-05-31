@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    margin-left: 21%;
+    margin-top: 3%;
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color: red;
+    margin-left: 21%;
+    
+}
+fieldset{
+
+    border-color: red;
+
+}
+
+body {
+    
+    margin-left: 20;
+    background-color: black;
+    font-family:sans-serif;
+    color: red;
+    justify-content: center;
+}
+
+input,select,textarea,button{
+    border-radius: 4px;
+}
+
+.campo{
+    margin-left: 1em;
+}
+.campo label {
+    margin-bottom: 0.2em;
+    color: red;
+    display: block;
+    
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid red;
+    box-shadow: 2px 2px 2px black(0,0,0,2);
+    display: block;
+
+}
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus,.campo select:focus, .campo textarea:focus {
+    background: orangered;
+}
+
+.botao {
+    font-size: 0,2em;
+    background-color: red;
+    border: 0;
+    margin-bottom: 1em;
+    color: black;
+    text-align: center;
+
+}
+
+form {
+    border-radius: 5px;
+    background-color: black;
+    margin: 30px 300px;
+    padding: 40px;
+    padding-bottom: 40px;
+    padding-bottom: 0;
+    text-align: left;
+}
